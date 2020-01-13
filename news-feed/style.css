@@ -26,3 +26,15 @@
     flex-direction: column;
 }
 
+
+/* Copy this in your stylesheet to style your page */
+/* Navbar style */
+nav ul{
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    
+}
