@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    width: 25%;
+    border: 2px solid red;
+}
+
+.card img{
+    width: 100%;
+}
+.tour-cards {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+
+.other-cards {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid purple;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
