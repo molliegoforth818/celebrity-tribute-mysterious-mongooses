@@ -1,0 +1,4 @@
+.collaborators {
+    display: flex;
+    flex-direction: column;
+}
