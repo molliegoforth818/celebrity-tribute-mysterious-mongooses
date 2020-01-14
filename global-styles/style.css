@@ -14,8 +14,13 @@ li {
 }
 
 footer {
-    background-image: linear-gradient(to right, #D99AC5, #6CD4FF);
-    padding: 3%;
+    background-image: linear-gradient(to right, rgba(217, 154, 197, 0.452), rgba(108, 211, 255, 0.507)), url(https://cuziloveyou.lizzomusic.com/sites/g/files/g2000008501/files/CILY_cutout.png);
+    background-position: 0, center bottom;
+    background-size: cover, 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 300px;
 }
 
 footer .links {
