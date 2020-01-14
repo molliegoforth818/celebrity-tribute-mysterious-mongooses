@@ -1,13 +1,15 @@
 h1{
     font-display: bold;
     font-style: italic;
-    image-orientation: from-image;
 }
 body {
     display: block
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+* {
+font-family:Tahoma;
 }
 img{
-    width: auto;
+    border-radius: 100px;
 }
