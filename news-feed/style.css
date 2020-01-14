@@ -1,11 +1,9 @@
 .card {
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    width: 300px;
+    
+    width: 25%;
     border: 2px solid red;
-    height: 600px;
-    overflow: scroll;
 }
 
 .card img{
@@ -14,26 +12,27 @@
 .tour-cards {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid purple;
-    overflow: scroll;
+    border: 1px solid green;
 }
 
-.film-cards {
+.other-cards {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid purple;
-    overflow: scroll;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 5px;
 }
 
-.tv-cards {
+/* Navbar style */
+nav ul{
     display: flex;
-    flex-wrap: wrap;
-    border: 1px solid purple;
-    overflow: scroll;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    
 }
