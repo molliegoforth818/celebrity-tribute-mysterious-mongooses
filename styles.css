@@ -25,3 +25,20 @@ p {
  
   ;
 }
+
+/* Navbar Styles */
+nav ul{
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
