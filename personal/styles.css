@@ -1,0 +1,13 @@
+h1{
+    font-display: bold;
+    font-style: italic;
+    image-orientation: from-image;
+}
+body {
+    display: block
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: auto;
+}
