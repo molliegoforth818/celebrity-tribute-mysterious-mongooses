@@ -26,3 +26,13 @@
     flex-direction: column;
 }
 
+/* Navbar style */
+nav ul{
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    
+}
