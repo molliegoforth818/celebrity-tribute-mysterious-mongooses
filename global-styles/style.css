@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 /* Navbar Styles */
 nav ul{
     display: flex;
@@ -10,9 +14,26 @@ li {
 }
 
 footer {
+    background-image: linear-gradient(to right, #D99AC5, #6CD4FF);
+    padding: 3%;
+}
+
+footer .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    color: #D9DBF1;
 }
 
 /* Background Color */
