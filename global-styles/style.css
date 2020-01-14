@@ -1,7 +1,8 @@
-/* Navbar Styles */
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/* Navbar Styles */
 nav ul{
     display: flex;
 }
@@ -34,3 +35,7 @@ footer .copyright {
     color: #D9DBF1;
 }
 
+/* Background Color */
+body {
+    background-color: #D9DBF1;
+}
