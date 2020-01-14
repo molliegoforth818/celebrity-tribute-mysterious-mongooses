@@ -1,0 +1,28 @@
+
+
+.header {
+    padding: 2px;
+    font-family: Georgia;
+    text-align: center;
+    background: plum;
+    color: white;
+    font-size: 20px;
+  }
+  
+ul {
+    list-style-type: none;
+    display:inline-block;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+p {
+  color: purple;
+  font-size: larger;
+ 
+  ;
+}
+
+/* Navbar Styles */
+
