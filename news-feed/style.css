@@ -5,6 +5,7 @@
     height: 550px;
     border: 2px solid red;
     margin: 20px;
+    overflow: scroll;
 }
 
 .card img{
@@ -32,14 +33,5 @@
 .container {
     display: flex;
     flex-direction: column;
-}
-
-/* Navbar style */
-nav ul{
-    display: flex;
-}
-
-li {
-    list-style-type: none;
-    padding: 10px;
+    padding: 20px;
 }
