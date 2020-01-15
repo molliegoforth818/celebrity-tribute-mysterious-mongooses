@@ -38,6 +38,11 @@ nav li {
 .nav-link {
     margin: auto auto;
     text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -45,6 +50,7 @@ nav {
     margin: 0 auto;
     height: 100px;
     display: flex;
+    width: 100%;
 }
 
 .nav-img-container {
@@ -65,12 +71,15 @@ li:hover a {
 
 .nav-link-container:hover {
     background-color: #D9DBF1;
-    color: #00FF00; 
+    color: #7e6ac0; 
 }
 
 nav img , nav li{
     height: 100px;
 }
+
+/* Main Styles */
+
 
 
 /* Footer Styles */
@@ -81,13 +90,17 @@ footer {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 0;
-    height: 305px;
+    height: 420px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 5px;
 }
 
 footer img {
