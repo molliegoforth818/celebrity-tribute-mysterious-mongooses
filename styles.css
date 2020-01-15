@@ -9,21 +9,24 @@ html, body {
   text-align: center;
   background: rgb(248, 213, 241);
   color: purple;
-  font-size: 50px;
+  font-size: 20px;
   width: 100%;
   opacity: 80%;
 }
 
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 
 
-div {
- 
-  
 }
 
+
 article.div {
-  padding: 2px;
+  padding: 10px;
   font-family: Georgia;
   text-align: center;
   background: rgb(248, 213, 241);
@@ -35,7 +38,7 @@ article.div {
 }
 
 p {
-  padding: 2px;
+  padding: 10px;
   font-family: Georgia;
   text-align: center;
   background: rgb(248, 213, 241);
