@@ -10,10 +10,12 @@ body {
 
 a:visited {
     color: #D9DBF1;
+    text-decoration: none;
 }
 
 li a:visited {
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* Navbar Styles */
@@ -27,10 +29,15 @@ nav li {
     color: #D9DBF1;
     list-style-type: none;
     text-transform: uppercase;
+    display: flex; 
+    justify-content: center;
+    justify-items: center;
+    width: 25%;
 }
 
 .nav-link {
     margin: auto auto;
+    text-decoration: none;
 }
 
 nav {
@@ -53,6 +60,7 @@ nav {
 
 li:hover a {
     color: inherit;
+    text-decoration: none;
 }
 
 .nav-link-container:hover {
@@ -64,12 +72,7 @@ nav img , nav li{
     height: 100px;
 }
 
-nav li {
-    display: flex; 
-    justify-content: center;
-    justify-items: center;
-    width: 25%;
-}
+
 /* Footer Styles */
 footer {
     background-image: linear-gradient(to right, rgba(217, 154, 197, 0.452), rgba(108, 211, 255, 0.507)), url(https://cuziloveyou.lizzomusic.com/sites/g/files/g2000008501/files/CILY_cutout.png);
