@@ -1,7 +1,9 @@
 h1{
     font-display: bold;
     font-style: italic;
-    image-orientation: from-image;
+    text-align: center;
+    padding: 3%;
+    margin: 1px;
 }
 body {
     display: block;
@@ -9,16 +11,22 @@ body {
     flex-direction: column;
 }
 figure {
-    float: left;;
     width: 50%;
     text-align: center;
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-    border: thin silver
-    margin: 0.5em;
+    margin: 0.5em; 
     padding: 0.5em;
+    margin: auto auto;
   }
 .img-container img{
-    width: 50%;
+    width: 50%; 
+}
+.content{
+    padding: 2%;
+    text-align: center;
+    border-style: rounded;
+    border-color: purple;
+    border-width: 5px 5px;
 }
