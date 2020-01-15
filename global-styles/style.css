@@ -1,18 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #D9DBF1; /* Background Color */
+}
+
+a:visited {
+    color: #D9DBF1;
+}
+
+li a:visited {
+    color: #ffffff;
 }
 
 /* Navbar Styles */
 nav ul{
     display: flex;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 li {
+    color: #D9DBF1;
     list-style-type: none;
-    padding: 10px;
-    
 }
 
+.nav-link {
+    margin: auto auto;
+}
+
+nav {
+    background-color: #7E6AC0;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+}
+
+.nav-img-container {
+    display: flex;
+    height: 100px;
+}
+
+.nav-link-list-container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+li:hover a {
+    color: inherit;
+}
+
+.nav-link-container:hover {
+    background-color: #D9DBF1;
+    color: #00FF00; 
+}
+
+nav img , nav li{
+    height: 100px;
+}
+
+nav li {
+    display: flex; 
+    justify-content: center;
+    justify-items: center;
+    width: 25%;
+}
+/* Footer Styles */
 footer {
     background-image: linear-gradient(to right, rgba(217, 154, 197, 0.452), rgba(108, 211, 255, 0.507)), url(https://cuziloveyou.lizzomusic.com/sites/g/files/g2000008501/files/CILY_cutout.png);
     background-position: 0, center bottom;
@@ -41,7 +98,3 @@ footer .copyright {
     color: #D9DBF1;
 }
 
-/* Background Color */
-body {
-    background-color: #D9DBF1;
-}
