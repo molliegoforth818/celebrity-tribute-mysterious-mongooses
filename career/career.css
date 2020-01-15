@@ -5,15 +5,18 @@
 article {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(163, 174, 185);
     margin: 20px;
     padding: 20px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, rgba(217, 154, 197, 0.452), rgba(108, 211, 255, 0.507));
+    border-image-slice: 1;
 }
 
 .albums {
     display: flex;
     flex-direction: row;
     overflow: auto;
+    
 }
 
 h2 {
@@ -27,4 +30,26 @@ h4 {
 
 .albums h5 {
     margin-bottom: 2em;
+}
+
+.textContent {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.photos img {
+    width: 25%;
 }
