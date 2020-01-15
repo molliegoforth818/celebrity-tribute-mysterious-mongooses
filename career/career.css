@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    text-align: center;
 }
 
 article {
@@ -16,26 +17,36 @@ article {
     display: flex;
     flex-direction: row;
     overflow: auto;
-    
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 h2 {
     margin-bottom: 1em;
     text-transform: uppercase;
+    
 }
 
 h4 {
     text-transform: uppercase;
+    
 }
 
 .albums h5 {
     margin-bottom: 2em;
+    text-align: center;
+}
+
+.early {
+    text-align: center;
 }
 
 .textContent {
-    width: 80%;
+    width: 70%;
     position: relative;
-    left: 10%;
+    left: 15%;
 }
 
 main {
@@ -52,4 +63,8 @@ main {
 
 .photos img {
     width: 25%;
+}
+
+li {
+    list-style-type: none;
 }
