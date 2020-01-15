@@ -7,34 +7,40 @@ html, body {
   padding: 2px;
   font-family: Georgia;
   text-align: center;
-  background: plum;
-  color: white;
+  background: rgb(248, 213, 241);
+  color: purple;
   font-size: 10px;
   width: 100%;
+  opacity: 80%;
 }
 
 
 
 
-li {
+div {
   display: inline;
+  width: 50%;
+  margin: 10;
+  padding: 20px;
   
   
 }
 
-ul {
+article {
   list-style-type: none;
+  top
   display:inline-block;
   width: 33.33%;
   padding: 5px 20px 10px 5px;
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 20px;
  
 }
 
 p {
 color: purple;
 font-size: larger;
+margin: 10%;
 
 
 }
