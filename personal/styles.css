@@ -1,7 +1,8 @@
 h1{
     font-display: bold;
     font-style: italic;
-    image-orientation: from-image;
+    text-align: center;
+    padding: 3%;
 }
 body {
     display: block;
@@ -21,4 +22,7 @@ figure {
   }
 .img-container img{
     width: 50%;
-}
+ } 
+ div {
+   padding: 1%;
+ }
