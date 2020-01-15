@@ -23,9 +23,10 @@ nav ul{
     justify-content: space-evenly;
 }
 
-li {
+nav li {
     color: #D9DBF1;
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 .nav-link {
