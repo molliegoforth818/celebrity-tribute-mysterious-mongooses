@@ -1,11 +1,16 @@
 
+html, body {
+  margin: 0;
+ }
+
 .header {
   padding: 2px;
   font-family: Georgia;
   text-align: center;
   background: plum;
   color: white;
-  font-size: 20px;
+  font-size: 10px;
+  width: 100%;
 }
 
 
