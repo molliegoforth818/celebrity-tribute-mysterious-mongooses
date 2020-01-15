@@ -12,6 +12,9 @@ body {
     color: #D9DBF1;
 } */
 
+.nav-unordered-list {
+    padding: 0;
+}
 li a:visited {
     color: #D9DBF1;
     text-decoration: none;
