@@ -4,13 +4,67 @@
     width: 300px;
     height: 550px;
     margin: 20px;
-    overflow: scroll;
+}
+
+
+.card-container h1 {
+    color: rgb(251, 249, 255);
+    padding: 10px;
+    background-color: rgba(126, 106, 192, 0.589);
 }
 
 .card img{
     width: 100%;
+    
 }
 
+.bottom-div {
+    width: 100%;
+    align-self: flex-end;
+    color: rgb(126, 106, 192);
+    border: 2px solid rgb(126, 106, 192);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.bottom-div:hover a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.happened {
+    background-color: #7E6AC0;
+    color: #D9DBF1;
+}
+
+.bottom-div:hover{
+    background-color: #7E6AC0;
+    color: #D9DBF1; 
+}
+
+.empty{
+    flex-grow: 1;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: inset 0 0 10px rgb(99, 83, 151);
+}
+
+.card img:hover{
+    align-self: center;
+    width: 75%;
+}
+
+.news-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
 .tour-cards {
     display: flex;
     flex-wrap: wrap;
@@ -29,9 +83,20 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
+    height: 250px;
 }
 
 .container h2 {
- margin: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.container h4, .container p {
+    text-align: center;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
 }
