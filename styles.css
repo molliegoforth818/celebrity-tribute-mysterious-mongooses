@@ -9,7 +9,7 @@ html, body {
   text-align: center;
   background: rgb(248, 213, 241);
   color: purple;
-  font-size: 10px;
+  font-size: 50px;
   width: 100%;
   opacity: 80%;
 }
@@ -18,29 +18,31 @@ html, body {
 
 
 div {
-  display: inline;
-  width: 50%;
-  margin: 10;
-  padding: 20px;
-  
+ 
   
 }
 
-article {
-  list-style-type: none;
-  top
-  display:inline-block;
-  width: 33.33%;
-  padding: 5px 20px 10px 5px;
-  margin: 10;
-  padding: 20px;
+article.div {
+  padding: 2px;
+  font-family: Georgia;
+  text-align: center;
+  background: rgb(248, 213, 241);
+  color: purple;
+  font-size: 20px;
+  width: 100%;
+  opacity: 80%;
  
 }
 
 p {
-color: purple;
-font-size: larger;
-margin: 10%;
+  padding: 2px;
+  font-family: Georgia;
+  text-align: center;
+  background: rgb(248, 213, 241);
+  color: purple;
+  font-size: 20px;
+  width: 100%;
+  opacity: 80%;
 
 
 }
