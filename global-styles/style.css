@@ -8,14 +8,23 @@ body {
     background-color: #D9DBF1; /* Background Color */
 }
 
-a:visited {
+/* a:visited {
     color: #D9DBF1;
-}
+} */
 
 li a:visited {
-    color: #ffffff;
+    color: #D9DBF1;
+    text-decoration: none;
 }
 
+li a:link {
+    color: #D9DBF1;
+    text-decoration: none;
+}
+li a:active {
+    color: green;
+    text-decoration: none;
+}
 /* Navbar Styles */
 nav ul{
     display: flex;
@@ -29,8 +38,18 @@ li {
 }
 
 .nav-link {
-    margin: auto auto;
+    /* padding: 0 100%; */
+    /* margin: auto auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    
+    
 }
+
 
 nav {
     background-color: #7E6AC0;
@@ -56,7 +75,7 @@ li:hover a {
 
 .nav-link-container:hover {
     background-color: #D9DBF1;
-    color: #00FF00; 
+    color: #7E6AC0; 
 }
 
 nav img , nav li{
