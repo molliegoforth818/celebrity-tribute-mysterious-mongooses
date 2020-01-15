@@ -1,28 +1,47 @@
 
-
 .header {
-    padding: 2px;
-    font-family: Georgia;
-    text-align: center;
-    background: plum;
-    color: white;
-    font-size: 20px;
-  }
+  padding: 2px;
+  font-family: Georgia;
+  text-align: center;
+  background: plum;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+li {
+  display: inline;
   
+  
+}
+
 ul {
-    list-style-type: none;
-    display:inline-block;
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+  list-style-type: none;
+  display:inline-block;
+  width: 33.33%;
+  padding: 5px 20px 10px 5px;
+  margin: 0;
+  padding: 0;
+ 
 }
 
 p {
-  color: purple;
-  font-size: larger;
- 
-  ;
+color: purple;
+font-size: larger;
+
+
 }
 
-/* Navbar Styles */
-
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</style>
