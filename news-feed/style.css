@@ -7,10 +7,31 @@
     overflow: scroll;
 }
 
-.card img{
-    width: 100%;
+
+.card-container h1 {
+    color: rgb(251, 249, 255);
+    padding: 10px;
+    background-color: rgba(126, 106, 192, 0.589);
 }
 
+.card img{
+    width: 100%;
+    
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card img:hover{
+    align-self: center;
+    width: 75%;
+}
 .tour-cards {
     display: flex;
     flex-wrap: wrap;
@@ -33,5 +54,10 @@
 }
 
 .container h2 {
+    text-align: center;
  margin: 10px;
+}
+
+.container h4 {
+    text-align: center;
 }
