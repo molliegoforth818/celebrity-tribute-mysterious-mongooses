@@ -4,42 +4,70 @@ html, body {
  }
 
 .header {
-  padding: 2px;
+  margin: 20%;
   font-family: Georgia;
   text-align: center;
-  background: plum;
-  color: white;
-  font-size: 10px;
-  width: 100%;
+  background: #7E6AC0;
+  color: purple;
+  font-size: 20px;
+  width: 50%;
+  opacity: 80%;
 }
 
-
-
-
-li {
-  display: inline;
-  
-  
-}
-
-ul {
-  list-style-type: none;
-  display:inline-block;
-  width: 33.33%;
-  padding: 5px 20px 10px 5px;
-  margin: 0;
-  padding: 0;
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
  
 }
 
-p {
-color: purple;
-font-size: larger;
 
+article.div {
+  padding: 10px;
+  font-family: Georgia;
+  text-align: center;
+  background: #7E6AC0;
+  color:white;
+  font-size: 20px;
+  width: 50%;
+  opacity: 80%;
+ 
+}
+
+p.top { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:Helvetica;
+background: #b4b4f3;
+  color: whitesmoke;
+  font-size: 30px;
+  width: 100%;
+  opacity: 100%;
+  text-shadow: -1px 0 #9999ff,
+  1px -1px 0 #9999ff,
+  -1px 1px 0 #9999ff,
+  1px 1px 0 #9999ff;  }
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:Helvetica;
+background: #b4b4f3;
+  color: whitesmoke;
+  font-size: 20px;
+  width: 100%;
+  opacity: 100%;
+  text-shadow: -1px 0 #9999ff,
+  1px -1px 0 #9999ff,
+  -1px 1px 0 #9999ff,
+  1px 1px 0 #9999ff;  
+ 
 
 }
 
-<style>
+
 .footer {
   position: fixed;
   left: 0;
@@ -49,4 +77,4 @@ font-size: larger;
   color: white;
   text-align: center;
 }
-</style>
+
