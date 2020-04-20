@@ -26,7 +26,4 @@ figure {
 .content{
     padding: 2%;
     text-align: center;
-    border-style: rounded;
-    border-color: purple;
-    border-width: 5px 5px;
 }
